@@ -1,0 +1,322 @@
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+.main-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  width: 291px;
+  height: 96px;
+  text-align: center;
+}
+
+@media (min-width: 1440px) {
+  .main-title {
+    width: 313px;
+    letter-spacing: -1px;
+    text-align: left;
+    padding: 0px 80px 250px;
+  }
+}
+
+.title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.longtext {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+.white {
+  color: white;
+}
+.left {
+  text-align: left;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 616px;
+  background-image: url("./puntitos.png");
+}
+@media (min-width: 1440px) {
+  .header {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+    align-items: flex-end;
+  }
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 18px 17px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1440px) {
+  .nav {
+    padding: 36px 80px;
+    align-items: center;
+  }
+}
+
+.logo {
+  width: 54px;
+  height: 50px;
+}
+
+@media (min-width: 1440px) {
+  .logo {
+    width: 108px;
+    height: 100px;
+  }
+}
+
+.burger {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+}
+
+@media (min-width: 1440px) {
+  .burger {
+    display: none;
+  }
+}
+
+.barra {
+  background-color: #141414;
+  width: 36px;
+  height: 6px;
+}
+
+.menu {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .menu {
+    display: flex;
+    height: 28px;
+    width: 428px;
+    justify-content: space-between;
+  }
+}
+
+.mypicture {
+  width: 318px;
+  height: 300px;
+}
+
+@media (min-width: 1440px) {
+  .mypicture {
+    width: 435px;
+    height: 410px;
+    padding: 0px 80px;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 538px;
+  background-color: #141414;
+  padding-inline: 32px;
+  justify-content: space-around;
+}
+
+@media (min-width: 1440px) {
+  .main {
+    display: grid;
+    grid-template-columns: 211px 532px;
+    gap: 90px;
+    justify-content: center;
+  }
+}
+
+.contenedor-texto {
+  display: flex;
+  flex-direction: column;
+  height: 290px;
+  justify-content: space-between;
+}
+@media (min-width: 1440px) {
+  .contenedor-texto {
+    gap: 28px;
+    justify-content: center;
+    align-self: center;
+    align-items: flex-start;
+  }
+}
+
+.vector {
+  height: 80px;
+  width: 80px;
+  align-self: center;
+}
+
+@media (min-width: 1440px) {
+  .vector {
+    height: 211px;
+    width: 211px;
+    order: -1;
+    justify-self: end;
+  }
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  height: 1375px;
+  background-color: #fafafa;
+  padding-inline: 32px;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 1440px) {
+  .services {
+    height: 604px;
+  }
+}
+.contenedor-servicios {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+@media (min-width: 1440px) {
+  .contenedor-servicios {
+    flex-direction: row;
+    justify-content: center;
+    gap: 242px;
+  }
+}
+.bloque {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1440px) {
+  .bloque {
+    width: 262px;
+  }
+}
+
+.compu {
+  align-self: center;
+  margin-bottom: 19px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 660px;
+  background-color: #141414;
+  padding-inline: 32px;
+  justify-content: space-evenly;
+}
+@media (min-width: 1440px) {
+  .form {
+    display: grid;
+    grid-template-columns: 271px 376px;
+    justify-content: center;
+    align-content: center;
+  }
+}
+.textboxes {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 9px;
+  text-align: left;
+}
+
+.formbox {
+  height: 45px;
+  margin-bottom: 27px;
+}
+
+.mensaje {
+  height: 113px;
+}
+
+.button {
+  background-color: #ffd953;
+  border-radius: 4px;
+  height: 45px;
+  border: none;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 60px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 493px;
+  background-color: #dbdbdb;
+  justify-content: space-evenly;
+  padding-inline: 32px;
+}
+
+@media (min-width: 1440px) {
+  .footer {
+    background-image: url("./puntitos.png");
+    background-color: whitesmoke;
+    flex-direction: row;
+    padding-inline: 120px;
+    height: 346px;
+    justify-content: space-between;
+  }
+}
+.bloquefooter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 19px;
+}
+
+@media (min-width: 1440px) {
+  .bloquefooter {
+    justify-content: center;
+  }
+}
+.logofoot {
+  height: 71px;
+  width: 77px;
+}
+@media (min-width: 1440px) {
+  .logofoot {
+    height: 103px;
+    width: 112px;
+  }
+}
+.redes {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
